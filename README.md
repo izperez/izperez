@@ -15,12 +15,3 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=izperez)](https://github.com/anuraghazra/github-readme-stats)
-
-const { Contributions } = require('contributions')
-
-const contributions = await Contributions.forUser('ethomson');
-const days = contributions.getDays();
-
-for (let day of days) {
-    console.log(`${day.getDate()}: ${day.getIntensity()}`);
-}
